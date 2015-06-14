@@ -1,0 +1,79 @@
+body {
+
+}
+
+article {
+	width: 50em;
+}
+
+h1 {
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.my-page-header {
+	display: flex;
+}
+
+.my-page-header h1 {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 100;
+	color: #747704;
+	margin-bottom: 5px;
+}
+
+.my-page-header h3 {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 100;
+	color: #747704;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.my-page-header hr {
+    border: 0;
+    height: 2px;
+    background: #BCBBBB;
+}
+
+.my-page-header img {
+	margin-top: 10px;
+	width: 100px;
+}
+
+.my-page-header a {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #747704;
+}
+
+.my-header-logo-image {
+	margin-top: 10px;
+}
+
+
+.featured-header {
+
+}
+
+.featured-header h2 {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 400;
+	color: #BCBBBB;
+}
+
+@media screen and (max-width: 470px)
+{
+	.my-page-header h1{
+		font-size: 25px;
+	}
+
+	.my-page-header h3{
+		font-size: 18px;
+	}
+
+}
+
