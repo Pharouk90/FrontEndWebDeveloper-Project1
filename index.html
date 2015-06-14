@@ -6,14 +6,16 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
   <meta http-equiv="charset=utf-8">
+  <title>Mark H. Camper Portfolio</title>
 </head>
 <body>
- 	<div class="container">
+	<div class="container">
     <div class="row my-page-header my-header-logo">
       <div class="col-xs-3">
-        <img src="./images/Udacity_logo.svg">
+	<a href="http://udacity.com" target="_blank">
+        	<img src="images/Udacity_logo.svg">
+	</a>
       </div>
       <div class="col-xs-9 text-right text-uppercase my-header-info">
         <h1>Mark H. Camper</h1>
@@ -30,7 +32,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <img src="./bootstrap-prestructure_files/1140x350">
+        <img src="images/1140x350.png">
       </div>
     </div>
 
@@ -40,24 +42,39 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row my-projects my-project-links">
 
       <div class="col-md-4">
-        <img class="img-responsive" data-toggle="modal" data-target="#project1" src="./bootstrap-prestructure_files/555x300">
-        <h3>First Project</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+        <picture data-toggle="modal" data-target="#project1" >
+          <source media="(max-width: 1000px)" srcset="images/1000x350.png" type="image/png">
+          <img class="img-responsive" src="images/555x300.png" alt="Project 1">
+        </picture>
+        <div class="text-center">
+          <h3 class="text-uppercase">First Project</h3>
+          <p><a href="https://github.com/mhc-udacity/FrontEndWebDeveloper-Project1" target="_blank">Project 1</a></p>
+        </div>
       </div>
 
       <div class="col-md-4">
-        <img class="img-responsive" data-toggle="modal" data-target="#project2" src="./bootstrap-prestructure_files/555x300">
-        <h3>Second Project</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+        <picture data-toggle="modal" data-target="#project2" >
+          <source media="(max-width: 1000px)" srcset="images/1000x350.png" type="image/png">
+          <img class="img-responsive" src="images/555x300.png" alt="Project 2">
+        </picture>
+        <div class="text-center">
+          <h3 class="text-uppercase">Second Project</h3>
+          <p><a href="">Project 2 (Coming Soon)</a></p>
+        </div>
       </div>
 
       <div class="col-md-4">
-        <img class="img-responsive" data-toggle="modal" data-target="#project3" src="./bootstrap-prestructure_files/555x300">
-        <h3>Third Project</h3>
-        <p><a href="http://github.com/">Link to project</a></p>
+        <picture data-toggle="modal" data-target="#project3" >
+          <source media="(max-width: 1000px)" srcset="images/1000x350.png" type="image/png">
+          <img class="img-responsive" src="images/555x300.png" alt="Project 3">
+        </picture>
+        <div class="text-center">
+          <h3 class="text-uppercase">Third Project</h3>
+          <p><a href="">Project 3 (Coming Soon)</a></p>
+        </div>
       </div> 
 
   </div>
@@ -66,16 +83,16 @@
 <!-- Project Modals -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content my-modal-text">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">First Project Page</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
-        This was my first project in this class. I learned a lot about HTML and CSS.
+        <img class="img-responsive" src="images/775x300-Modal.png" alt="Project 1 Modal Image">
+        <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-responsive" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -88,11 +105,11 @@
         <h4 class="modal-title" id="myModalLabel">Second Project Page</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
+        <img class="img-responsive" src="images/775x300-Modal.png" alt="Project 2 Modal Image">
         This is a placeholder for my second project
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-responsive" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -105,11 +122,11 @@
         <h4 class="modal-title" id="myModalLabel">Third Project Page</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive" src="images/555.jpeg">
+        <img class="img-responsive" src="images/775x300-Modal.png" alt="Project 3 Modal Image">
         This is a placeholder for my third project
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default btn-responsive" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

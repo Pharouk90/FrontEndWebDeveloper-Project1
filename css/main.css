@@ -1,18 +1,7 @@
-body {
-
-}
-
-article {
-	width: 50em;
-}
-
-h1 {
-
-}
-
 img {
 	max-width: 100%;
 }
+
 
 .my-page-header {
 	display: flex;
@@ -65,8 +54,17 @@ img {
 	color: #BCBBBB;
 }
 
-@media screen and (max-width: 470px)
-{
+.my-projects h3 {
+	font-family: 'Lato', sans-serif; 
+	font-weight: 400;
+	color: #747704;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 470px) {
 	.my-page-header h1{
 		font-size: 25px;
 	}
@@ -76,4 +74,47 @@ img {
 	}
 
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	.my-modal-text p{
+		font-size: 200%;
+	}
+
+	.my-modal-text h4{
+		font-size: 200%;
+	}
+
+  	.btn-responsive {
+    	padding:4px 9px;
+    	font-size:200%;
+		line-height: 1.5;
+	}		
+
+	.my-project-links p {
+		font-size: 200%;
+	}
+
+	.my-page-header h1 {
+		font-weight: 400;
+	}
+
+	.my-page-header h3 {
+		font-weight: 400;
+	}
+
+	.my-header-info a {
+		font-size: 3em;
+		margin-left: 20px;
+	}
+
+	.featured-header h2 {
+		font-size: 5em;
+	}
+}
+
+
+
+
+
+
 
