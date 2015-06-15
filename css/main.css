@@ -2,64 +2,77 @@ img {
 	max-width: 100%;
 }
 
-
+/* Header */
 .my-page-header {
 	display: flex;
 }
 
-.my-page-header h1 {
-	font-family: 'Lato', sans-serif;
+.my-page-header-h1 {
+	font-family: "Lato", sans-serif;
 	font-weight: 100;
 	color: #747704;
 	margin-bottom: 5px;
 }
 
-.my-page-header h3 {
-	font-family: 'Lato', sans-serif;
+.my-page-header-h3 {
+	font-family: "Lato", sans-serif;
 	font-weight: 100;
 	color: #747704;
-	margin: 5px 0px 5px;
+	margin: 5px 0 5px;
 }
 
-.my-page-header hr {
-    border: 0;
-    height: 2px;
-    background: #bcbbbb;
+.my-page-header-hr {
+	border: 0;
+	height: 2px;
+	background: #bcbbbb;
 }
 
-.my-page-header img {
+.my-page-header-img {
 	margin-top: 10px;
 	width: 100px;
 }
 
-.my-page-header a {
+.my-page-header-a {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	color: #747704;
 }
 
-.my-header-logo-image {
-	margin-top: 10px;
+.my-header-info-a {
+	color: #747704;
 }
 
-.featured-header h2 {
-	font-family: 'Lato', sans-serif;
+/* Main */
+.my-featured-header-h2 {
+	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	color: #bcbbbb;
 }
 
-.my-projects h3 {
-	font-family: 'Lato', sans-serif;
+.my-projects-links-h3 {
+	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	color: #747704;
-	margin: 5px 0px 5px;
+	margin: 5px 0 5px;
 }
+
+/* Modals */
 
 .modal-content {
 	vertical-align: middle;
 	display: inline-block;
 }
 
+/* Footer */
+
+.my-footer-text {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	color: #747704;
+}
+
+
+/* Media queries */
 
 @media screen and (max-width: 470px) {
 	.my-page-header h1{
@@ -73,81 +86,81 @@ img {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) {
-	.my-modal-text p {
+	.my-modal-text-p {
 		font-size: 200%;
 	}
 
-	.my-modal-text h4 {
+	.my-modal-text-h4 {
 		font-size: 200%;
 	}
 
-  	.btn-responsive {
-    	padding: 4px 9px;
-    	font-size: 125%;
+	.btn-responsive {
+		padding: 4px 9px;
+		font-size: 125%;
 		line-height: 1.5;
 	}
 
-	.my-project-links p {
+	.my-project-links-p {
 		font-size: 125%;
 	}
 
-	.my-page-header h1 {
+	.my-page-header-h1 {
 		font-weight: 400;
 	}
 
-	.my-page-header h3 {
+	.my-page-header-h3 {
 		font-weight: 400;
 	}
 
-	.my-header-info a {
+	.my-header-info-a {
 		font-size: 3em;
 		margin-left: 20px;
 	}
 
-	.featured-header h2 {
+	.featured-header-h2 {
 		font-size: 5em;
 	}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) {
-	.my-modal-text p {
+	.my-modal-text-p {
 		font-size: 125%;
 	}
 
-	.my-modal-text h4 {
+	.my-modal-text-h4 {
 		font-size: 200%;
 	}
 
-  	.btn-responsive {
-    	padding: 4px 9px;
-    	font-size: 125%;
+	.btn-responsive {
+		padding: 4px 9px;
+		font-size: 125%;
 		line-height: 1.5;
 	}
 
-	.my-project-links p {
+	.my-projects-links-p {
 		font-size: 100%;
 	}
 
-	.my-project-links h3 {
+	.my-projects-links-h3 {
 		font-size: 100%;
 	}
 
-	.my-page-header h1 {
+	.my-page-header-h1 {
 		font-weight: 400;
 		font-size: 1em;
 	}
 
-	.my-page-header h3 {
+	.my-page-header-h3 {
 		font-weight: 400;
 		font-size: .75em;
 	}
 
-	.my-header-info a {
+	.my-header-info-a {
 		font-size: 1em;
 		margin-left: 15px;
 	}
 
-	.featured-header h2 {
+	.featured-header-h2 {
 		font-size: 2em;
 	}
 }
@@ -164,22 +177,22 @@ img {
 	}
 
 	.modal-footer {
-		padding: 5px 0px 5px;
+		padding: 5px 0 5px;
 	}
 
-	.my-modal-text h4{
+	.my-modal-text-h4{
 		font-size: 75%;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
-	.my-modal-text p {
+	.my-modal-text-p {
 		font-size: 65%;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
-  	.btn-responsive {
-    	padding: 2px 4px;
-    	font-size: 75%;
+	.btn-responsive {
+		padding: 2px 4px;
+		font-size: 75%;
 		line-height: 1;
 	}
 
@@ -187,7 +200,7 @@ img {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 701px) {
-	.my-header-info a {
+	.my-header-info-a {
 		font-size: 2em;
 		margin-left: 20px;
 	}
