@@ -8,24 +8,23 @@ img {
 }
 
 .my-page-header h1 {
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	color: #747704;
 	margin-bottom: 5px;
 }
 
 .my-page-header h3 {
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 	color: #747704;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: 5px 0px 5px;
 }
 
 .my-page-header hr {
     border: 0;
     height: 2px;
-    background: #BCBBBB;
+    background: #bcbbbb;
 }
 
 .my-page-header img {
@@ -43,23 +42,17 @@ img {
 	margin-top: 10px;
 }
 
-
-.featured-header {
-
-}
-
 .featured-header h2 {
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .my-projects h3 {
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	color: #747704;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: 5px 0px 5px;
 }
 
 .modal-content {
@@ -80,11 +73,11 @@ img {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) {
-	.my-modal-text p{
+	.my-modal-text p {
 		font-size: 200%;
 	}
 
-	.my-modal-text h4{
+	.my-modal-text h4 {
 		font-size: 200%;
 	}
 
@@ -92,7 +85,7 @@ img {
     	padding: 4px 9px;
     	font-size: 125%;
 		line-height: 1.5;
-	}		
+	}
 
 	.my-project-links p {
 		font-size: 125%;
@@ -117,11 +110,11 @@ img {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) {
-	.my-modal-text p{
+	.my-modal-text p {
 		font-size: 125%;
 	}
 
-	.my-modal-text h4{
+	.my-modal-text h4 {
 		font-size: 200%;
 	}
 
@@ -129,7 +122,7 @@ img {
     	padding: 4px 9px;
     	font-size: 125%;
 		line-height: 1.5;
-	}		
+	}
 
 	.my-project-links p {
 		font-size: 100%;
@@ -137,7 +130,7 @@ img {
 
 	.my-project-links h3 {
 		font-size: 100%;
-	}	
+	}
 
 	.my-page-header h1 {
 		font-weight: 400;
@@ -171,16 +164,15 @@ img {
 	}
 
 	.modal-footer {
-		padding-bottom: 5px;
-		padding-top: 5px;
-	}	
+		padding: 5px 0px 5px;
+	}
 
 	.my-modal-text h4{
 		font-size: 75%;
 		margin-bottom: 0px;
 	}
 
-	.my-modal-text p{
+	.my-modal-text p {
 		font-size: 65%;
 		margin-bottom: 0px;
 	}
@@ -198,7 +190,7 @@ img {
 	.my-header-info a {
 		font-size: 2em;
 		margin-left: 20px;
-	}	
+	}
 }
 
 
