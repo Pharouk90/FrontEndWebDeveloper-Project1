@@ -62,6 +62,10 @@ img {
 	margin-bottom: 5px;
 }
 
+.modal-content {
+	vertical-align: middle;
+	display: inline-block;
+}
 
 
 @media screen and (max-width: 470px) {
@@ -75,7 +79,7 @@ img {
 
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) {
 	.my-modal-text p{
 		font-size: 200%;
 	}
@@ -85,13 +89,13 @@ img {
 	}
 
   	.btn-responsive {
-    	padding:4px 9px;
-    	font-size:200%;
+    	padding: 4px 9px;
+    	font-size: 125%;
 		line-height: 1.5;
 	}		
 
 	.my-project-links p {
-		font-size: 200%;
+		font-size: 125%;
 	}
 
 	.my-page-header h1 {
@@ -112,6 +116,90 @@ img {
 	}
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) {
+	.my-modal-text p{
+		font-size: 125%;
+	}
+
+	.my-modal-text h4{
+		font-size: 200%;
+	}
+
+  	.btn-responsive {
+    	padding: 4px 9px;
+    	font-size: 125%;
+		line-height: 1.5;
+	}		
+
+	.my-project-links p {
+		font-size: 100%;
+	}
+
+	.my-project-links h3 {
+		font-size: 100%;
+	}	
+
+	.my-page-header h1 {
+		font-weight: 400;
+		font-size: 1em;
+	}
+
+	.my-page-header h3 {
+		font-weight: 400;
+		font-size: .75em;
+	}
+
+	.my-header-info a {
+		font-size: 1em;
+		margin-left: 15px;
+	}
+
+	.featured-header h2 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 600px) and (orientation: landscape) {
+	.modal-content {
+		width: 75%;
+		margin-left: 12.5%;
+	}
+
+	.modal-header {
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+
+	.modal-footer {
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}	
+
+	.my-modal-text h4{
+		font-size: 75%;
+		margin-bottom: 0px;
+	}
+
+	.my-modal-text p{
+		font-size: 65%;
+		margin-bottom: 0px;
+	}
+
+  	.btn-responsive {
+    	padding: 2px 4px;
+    	font-size: 75%;
+		line-height: 1;
+	}
+
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 701px) {
+	.my-header-info a {
+		font-size: 2em;
+		margin-left: 20px;
+	}	
+}
 
 
 
